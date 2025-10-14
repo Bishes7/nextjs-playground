@@ -14,7 +14,7 @@ export default function MainHeader() {
           NextLevel Food
         </Link>
 
-        <nav className="classes.nav">
+        <nav className={classes.nav}>
           <ul>
             <li>
               <NavLink href="/meals">Browse Meals</NavLink>

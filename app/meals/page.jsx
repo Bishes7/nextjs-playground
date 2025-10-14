@@ -1,11 +1,15 @@
 import React from "react";
-
-export default function ShareMeal() {
+import classes from "./page.module.css";
+export default function MealsPage() {
   return (
-    <div>
-      <main>
-        <h1>This is a meal page</h1>
-      </main>
-    </div>
+    <>
+      <header className={classes.header}>
+        <h1>
+          Delicious meals, created{" "}
+          <span className={classes.highlight}>by you</span>
+        </h1>
+      </header>
+      <main className={classes.main}></main>
+    </>
   );
 }

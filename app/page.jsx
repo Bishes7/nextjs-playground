@@ -13,7 +13,6 @@ export default function Home() {
           </div>
           <div className={classes.cta}>
             <Link href="/">Join the Community</Link>
-            <Link></Link>
           </div>
         </div>
       </header>
